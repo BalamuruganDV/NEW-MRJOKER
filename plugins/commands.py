@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃', url=f"https://t.me/Aadhi011")
+                InlineKeyboardButton('𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃', url=f"https://t.me/balaSmurugan")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -61,12 +61,12 @@ async def start(client, message):
         try:
             invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL))
         except ChatAdminRequired:
-            logger.error("Make sure Bot is admin in Forcesub channel")
+            logger.error("ᎷᎪᏦᎬ ՏႮᎡᎬ ᏴϴͲ ᏆՏ ᎪᎠᎷᏆΝ ᏆΝ ҒϴᎡᏟᎬՏႮᏴ ᏟᎻᎪΝΝᎬᏞ")
             return
         btn = [
             [
                 InlineKeyboardButton(
-                    "🔥 JOIИ CHΛИИΞL 🔥", url=invite_link.invite_link
+                    "🔥 ᎫϴᏆΝ ᏟᎻᎪΝΝᎬᏞ 🔥", url=invite_link.invite_link
                 )
             ]
         ]
@@ -363,7 +363,7 @@ async def delete_all_index_confirm(bot, message):
 async def settings(client, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
-        return await message.reply(f"You are anonymous admin. Use /connect {message.chat.id} in PM")
+        return await message.reply(f"ᎽϴႮ ᎪᎡᎬ ᎪΝϴΝᎷϴႮՏ ᎪᎠᎷᏆΝ. ႮՏᎬ /connect {message.chat.id} in PM")
     chat_type = message.chat.type
 
     if chat_type == "private":
