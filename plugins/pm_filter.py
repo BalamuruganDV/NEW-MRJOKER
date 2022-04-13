@@ -304,7 +304,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 except:
                     pass
             else:
-                await query.answer("Buddy Don't Touch Others Property 😁", show_alert=True)
+                await query.answer("𝙱𝚄𝙳𝙳𝚈 𝙳𝙾𝙽'𝚝 𝚝𝚘𝚞𝚌𝚑 𝚘𝚝𝚑𝚎𝚛 𝚛𝚎𝚙𝚘 😁", show_alert=True)
     elif "groupcb" in query.data:
         await query.answer()
 
@@ -473,7 +473,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     caption=f_caption,
                     protect_content=True if ident == "filep" else False 
                 )
-                await query.answer('Check PM, I have sent files in pm', show_alert=True)
+                await query.answer('𝙲𝙷𝙴𝙲𝙺 𝙿𝙼, 𝙸 𝙷𝙰𝚅𝙴 𝚂𝙴𝙽𝚃 𝙵𝙸𝙻𝙴𝚂 𝙸𝙽 𝙿𝙼', show_alert=True)
         except UserIsBlocked:
             await query.answer('You Are Blocked to use me', show_alert=True)
         except PeerIdInvalid:
@@ -514,12 +514,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             "**Select required mode**ㅤㅤㅤㅤ",
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton(text="𝖶𝗂𝗍𝗁 𝖶𝗁𝗂𝗍𝖾 𝖡𝖦", callback_data="rmbgwhite"),
-                InlineKeyboardButton(text="𝖶𝗂𝗍𝗁𝗈𝗎𝗍 𝖡𝖦", callback_data="rmbgplain"),
+                InlineKeyboardButton(text="ᏔᏆͲᎻ ᏔᎻᏆͲᎬ ᏴᏀ", callback_data="rmbgwhite"),
+                InlineKeyboardButton(text="ᏔᏆͲᎻϴႮͲ ᏴᏀ", callback_data="rmbgplain"),
                 ],[
-                InlineKeyboardButton(text="𝖲𝗍𝗂𝖼𝗄𝖾𝗋", callback_data="rmbgsticker"),
+                InlineKeyboardButton(text="ՏͲᏆᏟᏦᎬᎡ", callback_data="rmbgsticker"),
                 ],[
-                InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='photo')
+                InlineKeyboardButton('ᏴᎪᏟᏦ', callback_data='photo')
              ]]
         ),)
     elif query.data == "stick":
@@ -745,15 +745,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⚚ ᎪᎠᎠ ᎷᎬ Ͳϴ ᎽϴႮᎡ ᏀᎡϴႮᏢ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/MWUpdatez'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/OpusTechz')
+            InlineKeyboardButton('💠 ᏟᎻᎪΝΝᎬᏞ 💠', url='https://t.me/mrJOKERCHANNEL'),
+            InlineKeyboardButton('💮 ႮᏢᎠᎪͲᎬՏ 💮', url='https://t.me/MrJOKERgroup')
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('❓ ᏟϴᎷᎷᎪΝᎠՏ ❓', callback_data='help'),
+            InlineKeyboardButton('😍 ᎪᏴϴႮͲ 😍', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+            InlineKeyboardButton('༒ ՏႮᏴՏᏟᎡᏆᏴᎬ ༒', url='https://youtube.com/channel/UCl1EnIFvBwT7dPtgfOYnvPA')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -890,7 +890,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('♥️ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ♥️', url='https://github.com/Aadhi000/Ajax')
+            InlineKeyboardButton('📢ᎠᎬᏙᎬᏞϴᏢᎬᎡ': <a href='https://t.me/balaSmurugan'>𝙱𝚊𝚕𝚊𝚖𝚞𝚛𝚞𝚐𝚊𝚗</a>
             ],[
             InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
