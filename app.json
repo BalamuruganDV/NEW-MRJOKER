@@ -102,6 +102,10 @@
             "description": "choose b/w single or double buttons https://github.com/Aadhi000/Ajax/issues/22",
             "value": "True",
             "required": false
+        }, 
+        "RemoveBG_API": {
+            "description": "Get your api from https://www.remove.bg/b/background-removal-api", 
+            "required": false
         },
         "P_TTI_SHOW_OFF": {
             "description": "Customize Result Buttons to Callback or Url by (True = url / False = callback)",
