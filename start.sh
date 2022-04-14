@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/BalamuruganDV/NEW-MRJOKER.git /NEW-MRJOKER
+  git clone https://github.com/BalamuruganDV/TANU-BALA.git /TANU-BALA
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /NEW-MRJOKER
+  git clone $UPSTREAM_REPO /TANU-BALA
 fi
 cd /Ajax
 pip3 install -U -r requirements.txt
