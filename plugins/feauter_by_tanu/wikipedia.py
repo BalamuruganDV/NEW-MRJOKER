@@ -1,10 +1,12 @@
 import wikipedia
-from MashaRoBot import dispatcher
+#from MashaRoBot import dispatcher
 from MashaRoBot.modules.disable import DisableAbleCommandHandler
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 from wikipedia.exceptions import DisambiguationError, PageError
-
+#testing
+dispatcher = updater.dispatcher
+#testing end_____________
 
 @run_async
 def wiki(update: Update, context: CallbackContext):
